@@ -1,0 +1,24 @@
+import java.util.*;
+public class StackConcept {
+    public static void main(String[] args){
+        Stack<Integer>st=new Stack<>();
+
+        st.push(10);
+        st.push(20);
+        st.push(30);
+        st.push(40);
+        System.out.println(st);
+
+        System.out.println(st.peek());
+       st.pop();
+       System.out.println(st);
+
+       
+
+       /*  st.push("Ashi");
+        st.push("Chhaya");
+        st.push("Akshara");
+        System.out.println(st);
+    */
+   }
+}
